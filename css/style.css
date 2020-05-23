@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    padding:20px; 
+}
+.header-div {
+    padding:3%;
+    background-image: url('../images/anete-lusina-2JknzBYDu6k-unsplash.jpg');
+    /* background-image: url('../images/workshop-2Kqhw3qST0o-unsplash.jpg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+       
+}
+.todo-head {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2em;
+    padding-bottom: 10px;
+    
+}
+.todolist{
+    margin-top: 2%;
+}
+.createtodo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.createtodo input{
+    padding:5px;
+}
+
+.createtodo button{
+    padding:5px;
+    font-weight: bolder;
+    color: #ff006a;
+    background-color: black;
+    border: none;
+}
+
+li{
+    padding: 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 0 10%;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-bottom:5px;
+}
+
+/* japheth */
+input:checked + span{
+    text-decoration: line-through;
+}
+
+
+/* li .checkIt {
+    text-decoration: 'line-through' !important;
+} */
+  
